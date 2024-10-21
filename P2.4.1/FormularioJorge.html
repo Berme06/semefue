@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .form_button {
+            display: block;
+            margin-top: 15px;
+            background-color: rgb(79, 60, 96);
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<br>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personaje</legend>
+            <label for="name">Superhéroe favorito:</label>
+            <br>
+            <input list="Superhéroe" name="Superhéroe">
+            <datalist id="Superhéroe">
+                <option value="Linterna verde">
+                <option value="Spiderman">
+                <option value="Venom">
+                <option value="Deadpool">
+                <option value="Iron Man">
+                <option value="Doctor Strange">
+            </datalist>
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <label for="name">Nombre</label>
+            <br>
+            <input type="name" name="name">
+            <datalist id="name">
+            </datalist>
+            <br>
+            <label for="name">Telefon:</label>
+            <br>
+            <input type="tel" name="Telefono">
+            <datalist id="Telefono">
+            </datalist>
+        </fieldset>
+        <br>
+        <button name="Enviar" type="submit">Enviar
+    </form>
+</body>
+
+</html>
