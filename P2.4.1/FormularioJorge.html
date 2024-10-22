@@ -16,16 +16,13 @@
         }
     </style>
 </head>
-<br>
-
 <body>
-    <form>
+    <form action="mailto:jorge.bermejo7@educa.madrid.org" method="post">
         <fieldset>
             <legend>Personaje</legend>
             <label for="name">Superhéroe favorito:</label>
-            <br>
-            <input list="Superhéroe" name="Superhéroe">
-            <datalist id="Superhéroe">
+            <input list="Superheroe" name="Superheroe">
+            <datalist id="Superheroe">
                 <option value="Linterna verde">
                 <option value="Spiderman">
                 <option value="Venom">
@@ -33,25 +30,18 @@
                 <option value="Iron Man">
                 <option value="Doctor Strange">
             </datalist>
-            <br>
-            <br>
+            <label for="color">Color</label>
+            <input type="color" name="color">
         </fieldset>
         <fieldset>
             <legend>Datos de contacto</legend>
             <label for="name">Nombre</label>
             <br>
-            <input type="name" name="name">
-            <datalist id="name">
-            </datalist>
-            <br>
-            <label for="name">Telefon:</label>
-            <br>
+            <input type="text" name="name">
+            <label for="name">Telefono:</label>
             <input type="tel" name="Telefono">
-            <datalist id="Telefono">
-            </datalist>
         </fieldset>
-        <br>
-        <button name="Enviar" type="submit">Enviar
+        <input name="Enviar" type="submit">
     </form>
 </body>
 
