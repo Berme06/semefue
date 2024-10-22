@@ -58,13 +58,13 @@
             <legend>Datos de contacto</legend>
             <label for="name">Nombre</label>
             <br>
-            <input type="text" name="name">
+            <input type="text" placeholder="Escriba su nombre" name="name">
             <label for="name">Telefono:</label>
-            <input type="tel" name="Telefono">
+            <input type="tel" placeholder="Escriba su telefono" name="Telefono">
             <label for="fecha">Fecha</label>
             <input type="date">
-            <label for="contraseña">Contraseña</label>
-            <input type="contraseña">
+            <label for="contraseña">Contraseña (8 caracteres minimo)</label>
+            <input type="password" id="pass" name="password" minlength="8" required>
         </fieldset>
         <fieldset>
             <legend>Selecciona forma de contacto preferida:</legend>
